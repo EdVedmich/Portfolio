@@ -6,7 +6,7 @@
      <a href="https://t.me/edward_vedmich">
           <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=Telegram&logoColor=white" alt="Telegram Badge">
      </a>
-     <a href="edward_vedmich@mail.ru">
+     <a href="https://edward_vedmich@mail.ru">
           <img src="https://img.shields.io/badge/edward_vedmich@mail.ru-blue?style=for-the-badge&logo=Mail.ru&logoColor=orange" alt="Mail Badge">
      </a>
      <a href="https://vk.com/ed.vedmich">
