@@ -36,3 +36,25 @@ I am a Junior Data Analyst <img src="https://media.giphy.com/media/WUlplcMpOCEmT
 - :zap: I am currently looking for a job in data analytics.
 
 - :mailbox: How to reach me: :telephone_receiver: +7 (985) 333-25-65, :e-mail: edward_vedmich@mail.ru
+
+### :desktop_computer: A brief description of my works and projects :
+This repository presents the main works that I do in the process of improving my skills.
+
+- Block 1 (Dashboard): a basic dashboard with key metrics and events in Apache Superset.
+
+- Block 2 (Analysis of product metrics) consists of four tasks: 
+     - The first one analyzes and compares the Retention of two types of users: those who came through paid traffic and those who came through organic channels.
+     - The second one analyzes the quality of the advertising campaign.
+     - In the third, it is necessary to find out the reasons for the drop in application traffic.
+     - In the fourth, a weekly schedule of active audience is built for three categories of users: new, retained and gone.
+
+- Block 3 (A/B-tests) includes three tasks:
+     - conducting the AA-test.
+     - Analysis of A/B-test data and comparison of CTR in two groups using t-test, Poisson bootstrap, Mann-Whitney test, as well as t-test and Mann-Whitney test on top of bucket transformation.
+     - Text analysis between four groups based on the metric of linearized likes. Search for differences.
+
+- Block 4 (Building an ETL-pipeline): creating a table with information uploaded from the database using SQL and creating a DAG in airflow, which calculates data for yesterday on a daily basis.
+
+- Block 5 (Automation of reporting) consists of two tasks: 
+     - Creating your own telegram bot and writing a script to build an application report with information about the values of key metrics for the previous day and for the previous 7 days. Automation of sending the resulting analytical summary using Airflow.
+     - 
