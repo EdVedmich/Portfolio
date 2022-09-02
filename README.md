@@ -40,7 +40,9 @@ I am a Junior Data Analyst <img src="https://media.giphy.com/media/WUlplcMpOCEmT
 ### :desktop_computer: A brief description of my works and projects :
 This repository presents the main works that I do in the process of improving my skills. A more detailed description of the work performed, graphics, charts and code are located inside the folder of the task block itself.
 
-- Block 1 (**Dashboard**): a basic dashboard with key metrics and events in Apache Superset.
+- Block 1 (**Dashboards**): basic dashboards with key metrics and events in Apache Superset. There are two tasks:
+     - main (for the past time) and operational (for the current day) dashboards with key metrics on the news feed.
+     - a dashboard that describes the interaction of two services — news feed and messenger.
 
 - Block 2 (**Analysis of product metrics**) consists of four tasks: 
      - The first one analyzes and compares the Retention of two types of users: those who came through paid traffic and those who came through organic channels.
