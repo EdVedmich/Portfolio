@@ -53,7 +53,7 @@ This repository presents the main works that I do in the process of improving my
 - Block 3 (**A/B-tests**) includes three tasks:
      - conducting the AA-test.
      - Analysis of A/B-test data and comparison of CTR in two groups using t-test, Poisson bootstrap, Mann-Whitney test, as well as t-test and Mann-Whitney test on top of bucket transformation.
-     - Text analysis between four groups based on the metric of linearized likes. Search for differences.
+     - Analysis of the A/B-test between four groups based on the metric of linearized likes. Search for differences.
 
 - Block 4 (**Building an ETL-pipeline**): creating a table with information uploaded from the database using SQL and creating a DAG in airflow, which calculates data for yesterday on a daily basis.
 
