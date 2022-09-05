@@ -27,7 +27,7 @@
 </div>
 
 ### :man_technologist: About Me :
-I am a Junior Data Analyst <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Russia, Moscow.
+I am a Junior Data Analyst from Russia, Moscow.
 
 - :telescope: I graduated from Moscow State University with a master's degree in Historical Informatics, which is located at the intersection of history, economics and IT. I have mastered the basics of statistics, I can build and test statistical hypotheses, apply correlation analysis.
 
