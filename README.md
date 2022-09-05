@@ -40,25 +40,25 @@ I am a Junior Data Analyst <img src="https://media.giphy.com/media/WUlplcMpOCEmT
 ### :desktop_computer: A brief description of my works and projects :
 This repository presents the main works that I do in the process of improving my skills. A more detailed description of the work performed, graphics, charts and code are located inside the folder of the task block itself.
 
-- Block 1 (**Dashboards**): basic dashboards with key metrics and events in Apache Superset. There are two tasks:
+- Module 1 (**Dashboards**): basic dashboards with key metrics and events in Apache Superset. There are two tasks:
      - main (for the past time) and operational (for the current day) dashboards with key metrics on the news feed.
      - a dashboard that describes the interaction of two services — news feed and messenger.
 
-- Block 2 (**Analysis of product metrics**) consists of four tasks: 
+- Module 2 (**Analysis of product metrics**) consists of four tasks: 
      - The first one analyzes and compares the Retention of two types of users: those who came through paid traffic and those who came through organic channels.
      - The second one analyzes the quality of the advertising campaign.
      - In the third, it is necessary to find out the reasons for the drop in application traffic.
      - In the fourth, a weekly schedule of active audience is built for three categories of users: new, retained and gone.
 
-- Block 3 (**A/B-tests**) includes three tasks:
+- Module 3 (**AB-tests**) includes three tasks:
      - conducting the AA-test.
      - Analysis of A/B-test data and comparison of CTR in two groups using t-test, Poisson bootstrap, Mann-Whitney test, as well as t-test and Mann-Whitney test on top of bucket transformation.
      - Analysis of the A/B-test between four groups based on the metric of linearized likes. Search for differences.
 
-- Block 4 (**Building an ETL-pipeline**): creating a table with information uploaded from the database using SQL and creating a DAG in airflow, which calculates data for yesterday on a daily basis.
+- Module 4 (**ETL-pipeline**): creating a table with information uploaded from the database using SQL and creating a DAG in airflow, which calculates data for yesterday on a daily basis.
 
-- Block 5 (**Automation of reporting**) consists of two tasks: 
+- Module 5 (**Automation of reporting**) consists of two tasks: 
      - Creating your own telegram bot and writing a script to build a short report on the work of one of the application modules for the previous day and for the previous 7 days. Automation of sending using Airflow.
      - Generating an analytical summary with information about the values of key metrics in Python on the operation of the entire application and automating it using Airflow. 
  
- - Block 6 (**Anomaly detection**): Writing an alert system for an application that checks key metrics for anomalies every 15 minutes. Automation of the system using Airflow.
+ - Module 6 (**Anomaly detection**): Writing an alert system for an application that checks key metrics for anomalies every 15 minutes. Automation of the system using Airflow.
