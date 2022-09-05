@@ -1,0 +1,319 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "4.1 Source retention analysis",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 1336}",
+                "position_json": "{\"CHART-GNZ3oFSNKB\":{\"children\":[],\"id\":\"CHART-GNZ3oFSNKB\",\"meta\":{\"chartId\":9495,\"height\":50,\"sliceName\":\"Retention organic\",\"uuid\":\"bac21cea-9aa5-4f32-a32d-3464c3d63b28\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-UeSw7znXQx\"],\"type\":\"CHART\"},\"CHART-LBJlG04tnb\":{\"children\":[],\"id\":\"CHART-LBJlG04tnb\",\"meta\":{\"chartId\":9498,\"height\":50,\"sliceName\":\"Organic and Ads Retention\",\"uuid\":\"2213e934-5e35-484f-a05b-0d8796c4518c\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-7PFjlKZ4h\"],\"type\":\"CHART\"},\"CHART-e7Z0jSHkOC\":{\"children\":[],\"id\":\"CHART-e7Z0jSHkOC\",\"meta\":{\"chartId\":9496,\"height\":50,\"sliceName\":\"Retention ads\",\"uuid\":\"19f1ab4b-5eb2-4834-ae2e-f2694c8d709e\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-UeSw7znXQx\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"HEADER-j6RMIB0o6E\",\"ROW-UeSw7znXQx\",\"HEADER-9eRoP5VVXB\",\"ROW-7PFjlKZ4h\",\"HEADER-1z7ed4iXsT\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-1z7ed4iXsT\":{\"children\":[],\"id\":\"HEADER-1z7ed4iXsT\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"SMALL_HEADER\",\"text\":\"3) \\u041e\\u0434\\u043d\\u0430\\u043a\\u043e \\u043d\\u0430 \\u043f\\u043e\\u0441\\u043b\\u0435\\u0434\\u043d\\u0435\\u043c \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u0435 \\u0432\\u0438\\u0434\\u043d\\u043e, \\u0447\\u0442\\u043e \\u043f\\u043e\\u043a\\u0430\\u0437\\u0430\\u0442\\u0435\\u043b\\u044c Retention \\u0443 \\u043e\\u0440\\u0433\\u0430\\u043d\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0445 \\u0438\\u0441\\u0442\\u043e\\u0447\\u043d\\u0438\\u043a\\u043e\\u0432 \\u0432\\u0441\\u0435\\u0433\\u0434\\u0430 \\u0432\\u044b\\u0448\\u0435, \\u0447\\u0435\\u043c \\u0443 \\u043f\\u043b\\u0430\\u0442\\u043d\\u044b\\u0445 \\u043a\\u0430\\u043d\\u0430\\u043b\\u043e\\u0432. \\u042d\\u0442\\u043e \\u0433\\u043e\\u0432\\u043e\\u0440\\u0438\\u0442 \\u043e \\u0431\\u043e\\u043b\\u0435\\u0435 \\u0432\\u044b\\u0441\\u043e\\u043a\\u043e\\u043c \\u043a\\u0430\\u0447\\u0435\\u0441\\u0442\\u0432\\u0435 \\u0442\\u0440\\u0430\\u0444\\u0438\\u043a\\u0430 \\u0443 \\u043e\\u0440\\u0433\\u0430\\u043d\\u0438\\u043a\\u0438. \\u041a\\u043b\\u0438\\u0435\\u043d\\u0442\\u044b, \\u043f\\u0440\\u0438\\u0432\\u043b\\u0435\\u0447\\u0435\\u043d\\u043d\\u044b\\u0435 \\u044d\\u0442\\u043e\\u0439 \\u0433\\u0440\\u0443\\u043f\\u043f\\u043e\\u0439 \\u0438\\u0441\\u0442\\u043e\\u0447\\u043d\\u0438\\u043a\\u043e\\u0432, \\u0433\\u043e\\u0440\\u0430\\u0437\\u0434\\u043e \\u0434\\u043e\\u043b\\u044c\\u0448\\u0435 \\u043f\\u0440\\u043e\\u0434\\u043e\\u043b\\u0436\\u0430\\u044e\\u0442 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u044c\\u0441\\u044f \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435\\u043c.\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-9eRoP5VVXB\":{\"children\":[],\"id\":\"HEADER-9eRoP5VVXB\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"SMALL_HEADER\",\"text\":\"2) \\u041a\\u043e\\u0433\\u043e\\u0440\\u0442\\u043d\\u044b\\u0439 \\u0430\\u043d\\u0430\\u043b\\u0438\\u0437 \\u043f\\u043e\\u043a\\u0430\\u0437\\u044b\\u0432\\u0430\\u0435\\u0442, \\u0447\\u0442\\u043e \\u043f\\u043b\\u0430\\u0442\\u043d\\u044b\\u0435 \\u0438\\u0441\\u0442\\u043e\\u0447\\u043d\\u0438\\u043a\\u0438 \\u043f\\u0440\\u0438\\u0432\\u043b\\u0435\\u043a\\u0430\\u044e\\u0442\\u0441\\u044f \\u0432 \\u0446\\u0435\\u043b\\u043e\\u043c \\u0431\\u043e\\u043b\\u044c\\u0448\\u0435 \\u043d\\u043e\\u0432\\u044b\\u0445 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439, \\u0447\\u0435\\u043c \\u043e\\u0440\\u0433\\u0430\\u043d\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0435 \\u043a\\u0430\\u043d\\u0430\\u043b\\u044b. \\u0412 \\u043a\\u0430\\u0436\\u0434\\u043e\\u0439 \\u043a\\u043e\\u0433\\u043e\\u0440\\u0442\\u0435 \\u043a\\u043b\\u0438\\u0435\\u043d\\u0442\\u043e\\u0432, \\u043f\\u0440\\u0438\\u0432\\u043b\\u0435\\u0447\\u0435\\u043d\\u043d\\u044b\\u0445 \\u0447\\u0435\\u0440\\u0435\\u0437 \\u043f\\u043b\\u0430\\u0442\\u043d\\u044b\\u0435 \\u0438\\u0441\\u0442\\u043e\\u0447\\u043d\\u0438\\u043a\\u0438, \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e \\u043d\\u043e\\u0432\\u044b\\u0445 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439 \\u0432\\u044b\\u0448\\u0435 1000 \\u0432 14 \\u0438\\u0437 20 \\u0434\\u043d\\u0435\\u0439. \\u0412 \\u043e\\u0440\\u0433\\u0430\\u043d\\u0438\\u043a\\u0435 \\u0431\\u044b\\u0432\\u0430\\u044e\\u0442 \\u0434\\u043d\\u0438, \\u043a\\u043e\\u0433\\u0434\\u0430 \\u0447\\u0438\\u0441\\u043b\\u043e \\u043d\\u043e\\u0432\\u044b\\u0445 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439 \\u0434\\u0430\\u0436\\u0435 \\u0432\\u044b\\u0448\\u0435, \\u0447\\u0435\\u043c \\u0443 \\u043f\\u043b\\u0430\\u0442\\u043d\\u044b\\u0445 \\u043a\\u0430\\u043d\\u0430\\u043b\\u043e\\u0432, \\u043e\\u0434\\u043d\\u0430\\u043a\\u043e \\u0432 \\u0446\\u0435\\u043b\\u043e\\u043c \\u0434\\u0430\\u043d\\u043d\\u044b\\u0439 \\u043f\\u043e\\u043a\\u0430\\u0437\\u0430\\u0442\\u0435\\u043b\\u044c \\u0433\\u043e\\u0440\\u0430\\u0437\\u0434\\u043e \\u043d\\u0438\\u0436\\u0435. \\u041e\\u0441\\u043e\\u0431\\u0435\\u043d\\u043d\\u043e \\u0441\\u0438\\u043b\\u044c\\u043d\\u043e \\u043e\\u043d \\u0443\\u043c\\u0435\\u043d\\u044c\\u0448\\u0430\\u0435\\u0442\\u0441\\u044f \\u0441 27 \\u0438\\u044e\\u043d\\u044f. \\u0418\\u0437 20 \\u043c\\u043e\\u0436\\u043d\\u043e \\u0432\\u044b\\u0434\\u0435\\u043b\\u0438\\u0442\\u044c \\u0432\\u0441\\u0435\\u0433\\u043e 5 \\u0434\\u043d\\u0435\\u0439, \\u043a\\u043e\\u0433\\u0434\\u0430 \\u0447\\u0438\\u0441\\u043b\\u043e \\u043d\\u043e\\u0432\\u044b\\u0445 \\u043a\\u043b\\u0438\\u0435\\u043d\\u0442\\u043e\\u0432 \\u0431\\u043e\\u043b\\u044c\\u0448\\u0435 1000.\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-j6RMIB0o6E\":{\"children\":[],\"id\":\"HEADER-j6RMIB0o6E\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"SMALL_HEADER\",\"text\":\"1) \\u041a\\u0430\\u043a \\u0434\\u043b\\u044f \\u043e\\u0440\\u0433\\u0430\\u043d\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0445, \\u0442\\u0430\\u043a \\u0438 \\u0434\\u043b\\u044f \\u043f\\u043b\\u0430\\u0442\\u043d\\u044b\\u0445 \\u043a\\u0430\\u043d\\u0430\\u043b\\u043e\\u0432 \\u0445\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u043d\\u043e \\u0442\\u043e, \\u0447\\u0442\\u043e \\u043d\\u0430\\u0438\\u0431\\u043e\\u043b\\u044c\\u0448\\u0435\\u0435 \\u0447\\u0438\\u0441\\u043b\\u043e \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439 \\u0432 \\u043a\\u0430\\u0436\\u0434\\u043e\\u0439 \\u043a\\u043e\\u0433\\u043e\\u0440\\u0442\\u0435 \\u043f\\u0440\\u0438\\u0445\\u043e\\u0434\\u0438\\u0442 \\u0432 \\u043f\\u0435\\u0440\\u0432\\u044b\\u0439 \\u0434\\u0435\\u043d\\u044c. \\u0410 \\u043d\\u0430 \\u0432\\u0442\\u043e\\u0440\\u043e\\u0439 \\u0434\\u0435\\u043d\\u044c \\u043f\\u0440\\u043e\\u0438\\u0441\\u0445\\u043e\\u0434\\u0438\\u0442 \\u043d\\u0430\\u0438\\u0431\\u043e\\u043b\\u0435\\u0435 \\u0441\\u0438\\u043b\\u044c\\u043d\\u044b\\u0439 \\u043e\\u0442\\u0442\\u043e\\u043a \\u043d\\u043e\\u0432\\u044b\\u0445 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439. \\u041e\\u0434\\u043d\\u0430\\u043a\\u043e \\u0432 \\u043f\\u043e\\u0441\\u043b\\u0435\\u0434\\u0443\\u044e\\u0449\\u0438\\u0435 \\u0434\\u043d\\u0438 \\u0440\\u0435\\u0437\\u043a\\u0438\\u0445 \\u043f\\u0430\\u0434\\u0435\\u043d\\u0438\\u0439 \\u0443\\u0436\\u0435 \\u043d\\u0435 \\u043f\\u0440\\u043e\\u0438\\u0441\\u0445\\u043e\\u0434\\u0438\\u0442 - \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u044f \\u0432\\u044b\\u0440\\u0430\\u0432\\u043d\\u0438\\u0432\\u0430\\u044e\\u0442\\u0441\\u044f \\u0438 \\u043f\\u0440\\u043e\\u0441\\u043b\\u0435\\u0436\\u0438\\u0432\\u0430\\u0435\\u0442\\u0441\\u044f \\u043f\\u043b\\u0430\\u0432\\u043d\\u043e\\u0435 \\u0438 \\u043f\\u043e\\u0441\\u043b\\u0435\\u0434\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e\\u0435 \\u0441\\u043d\\u0438\\u0436\\u0435\\u043d\\u0438\\u0435 \\u0447\\u0438\\u0441\\u043b\\u0430 \\u0442\\u0435\\u0445, \\u043a\\u0442\\u043e \\u043f\\u0440\\u043e\\u0434\\u043e\\u043b\\u0436\\u0430\\u0435\\u0442 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u044c\\u0441\\u044f \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435\\u043c.\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"4.1 Source retention analysis\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-7PFjlKZ4h\":{\"children\":[\"CHART-LBJlG04tnb\"],\"id\":\"ROW-7PFjlKZ4h\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-UeSw7znXQx\":{\"children\":[\"CHART-GNZ3oFSNKB\",\"CHART-e7Z0jSHkOC\"],\"id\":\"ROW-UeSw7znXQx\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20220620.EV_Ret of org and ads",
+                            "datasource_type": "table",
+                            "id": 9495,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"'organic'\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_xx9ftoi48hs_0ka6uvbxe4tf\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"source\"}], \"all_columns_x\": \"date\", \"all_columns_y\": \"start_date\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"4299__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"greens\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"users\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 21509, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT64\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(users)\", \"optionName\": \"metric_qorrixhxwz8_209uaz37d1e\", \"sqlExpression\": null}, \"normalize_across\": \"y\", \"normalized\": false, \"row_limit\": 1000, \"show_legend\": true, \"show_perc\": true, \"show_values\": true, \"slice_id\": 9495, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 9495, \"datasource_name\": \"EV_Ret of org and ads\", \"schema\": \"simulator_20220620\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":4299,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"date\",\"filters\":[{\"col\":\"source\",\"op\":\"==\",\"val\":\"'organic'\"}],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"column_name\":\"users\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":21509,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT64\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"MAX(users)\",\"optionName\":\"metric_qorrixhxwz8_209uaz37d1e\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Retention organic",
+                            "viz_type": "heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20220620.EV_Ret of org and ads",
+                            "datasource_type": "table",
+                            "id": 9496,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"'ads'\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_xx9ftoi48hs_0ka6uvbxe4tf\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"source\"}], \"all_columns_x\": \"date\", \"all_columns_y\": \"start_date\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"4299__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"purples\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"users\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 21509, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT64\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(users)\", \"optionName\": \"metric_qorrixhxwz8_209uaz37d1e\", \"sqlExpression\": null}, \"normalize_across\": \"y\", \"normalized\": false, \"row_limit\": 1000, \"show_legend\": true, \"show_perc\": true, \"show_values\": true, \"slice_id\": 9496, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 9496, \"datasource_name\": \"EV_Ret of org and ads\", \"schema\": \"simulator_20220620\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":4299,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"date\",\"filters\":[{\"col\":\"source\",\"op\":\"==\",\"val\":\"'ads'\"}],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"column_name\":\"users\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":21509,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT64\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"MAX(users)\",\"optionName\":\"metric_qorrixhxwz8_209uaz37d1e\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Retention ads",
+                            "viz_type": "heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20220620.EV_Org and Ads Ret common db",
+                            "datasource_type": "table",
+                            "id": 9498,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"SUPERSET_DEFAULT\", \"columns\": [], \"datasource\": \"4393__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"groupby\": [\"date\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"org_users\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 22030, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT64\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Org_users\", \"optionName\": \"metric_2zp1vosacv7_s1l8tfewgao\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"ads_users\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 22031, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT64\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Ads_users\", \"optionName\": \"metric_09300bvlwrk4_fb23bit3ygn\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": 1000, \"slice_id\": 9498, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 9498, \"datasource_name\": \"EV_Org and Ads Ret common db\", \"schema\": \"simulator_20220620\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":4393,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"date\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\"],\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"column_name\":\"org_users\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":22030,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT64\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"Org_users\",\"optionName\":\"metric_2zp1vosacv7_s1l8tfewgao\",\"sqlExpression\":null},{\"aggregate\":\"MAX\",\"column\":{\"column_name\":\"ads_users\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":22031,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT64\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"Ads_users\",\"optionName\":\"metric_09300bvlwrk4_fb23bit3ygn\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Organic and Ads Retention",
+                            "viz_type": "dist_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-04T22:52:18"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-03T12:22:18"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 21507,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 4299,
+                            "type": "DATE",
+                            "uuid": "ef7b9814-0242-451e-9938-f7a548ae93dd",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-04T22:52:18"
+                            },
+                            "column_name": "start_date",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-03T12:22:18"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 21508,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 4299,
+                            "type": "DATE",
+                            "uuid": "321b621f-9e2d-4f2f-b827-36254bdec529",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-04T22:52:18"
+                            },
+                            "column_name": "users",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-03T12:22:18"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 21509,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4299,
+                            "type": "UINT64",
+                            "uuid": "edadfdeb-5910-4d7e-b3ac-beec38d6f985",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-04T22:52:18"
+                            },
+                            "column_name": "source",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-03T12:22:18"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 21510,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4299,
+                            "type": "STRING",
+                            "uuid": "ad8e454a-36fd-4ffd-a7a2-e488c3370806",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-04T22:52:18"
+                            },
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-03T12:22:18"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{\"warning_markdown\":\"\"}",
+                            "id": 4382,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 4299,
+                            "uuid": "d7b74ceb-188e-4505-9ad3-3f716fbf15de",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 4299, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20220620",
+                "sql": "select toString(date) as date, toString(start_date) as start_date, count(user_id) as users, source\nfrom\n(Select user_id, min(toDate(time)) as start_date, source\nfrom simulator_20220620.feed_actions\ngroup by user_id, source\nhaving start_date >= today() - 20\n) t1\njoin\n(select distinct user_id, toDate(time) as date\nfrom simulator_20220620.feed_actions) t2\nusing user_id\ngroup by date, start_date, source",
+                "table_name": "EV_Ret of org and ads",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-04T23:08:16"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-04T23:08:16"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22029,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 4393,
+                            "type": "DATE",
+                            "uuid": "7c1811f6-02c6-43b1-bbc9-ccf84316ba59",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-04T23:08:16"
+                            },
+                            "column_name": "org_users",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-04T23:08:16"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22030,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4393,
+                            "type": "UINT64",
+                            "uuid": "fe2b3fa3-e1f7-401e-8f94-bb8e1fa18e79",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-04T23:08:16"
+                            },
+                            "column_name": "ads_users",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-04T23:08:16"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22031,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4393,
+                            "type": "UINT64",
+                            "uuid": "74ae01bc-ce5d-493c-925f-613a9630a39c",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-04T23:08:16"
+                            },
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-04T23:08:16"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 4476,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 4393,
+                            "uuid": "a8071fcd-7802-49be-9af9-7ec7e255209a",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 4393, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20220620",
+                "sql": "select date, org_users, ads_users\nfrom\n\n(select date, count(user_id) org_users\nfrom\n(select user_id\nfrom simulator_20220620.feed_actions\nwhere source = 'organic'\ngroup by user_id\nhaving min(toDate(time)) = today() - 20) t1\n\njoin\n\n(select distinct user_id, toDate(time) date\nfrom simulator_20220620.feed_actions) t2\n\nusing user_id\ngroup by date) t3\n\nfull outer join\n\n(select date, count(user_id) ads_users\nfrom\n(select user_id\nfrom simulator_20220620.feed_actions\nwhere source = 'ads'\ngroup by user_id\nhaving min(toDate(time)) = today() - 20) t4\n\njoin\n\n(select distinct user_id, toDate(time) date\nfrom simulator_20220620.feed_actions) t5\n\nusing user_id\ngroup by date) t6\nusing date",
+                "table_name": "EV_Org and Ads Ret common db",
+                "template_params": null
+            }
+        }
+    ]
+}

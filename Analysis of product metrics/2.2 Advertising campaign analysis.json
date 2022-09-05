@@ -1,0 +1,676 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "4.2 Advertising campaign analysis",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 1324}",
+                "position_json": "{\"CHART-R2LtTBmsyY\":{\"children\":[],\"id\":\"CHART-R2LtTBmsyY\",\"meta\":{\"chartId\":9534,\"height\":50,\"sliceName\":\"Advertising campaign Retention cohort\",\"uuid\":\"a95594fd-c37e-4a6f-9ba4-e64931ae78cc\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-1lVITRA_q\"],\"type\":\"CHART\"},\"CHART-eEnFDnIHTA\":{\"children\":[],\"id\":\"CHART-eEnFDnIHTA\",\"meta\":{\"chartId\":9503,\"height\":50,\"sliceName\":\"Source\",\"uuid\":\"5e99d5e7-d2c9-4c0d-a806-2527a11af0ca\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-dW1LDjU5P\"],\"type\":\"CHART\"},\"CHART-hpGEhtM3A7\":{\"children\":[],\"id\":\"CHART-hpGEhtM3A7\",\"meta\":{\"chartId\":9504,\"height\":50,\"sliceName\":\"DAU\",\"uuid\":\"a0fc69d0-a85b-435f-b6a5-a25c30870cc3\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-dW1LDjU5P\"],\"type\":\"CHART\"},\"CHART-nyfDNl6go2\":{\"children\":[],\"id\":\"CHART-nyfDNl6go2\",\"meta\":{\"chartId\":9524,\"height\":50,\"sliceName\":\"Advertising campaign Retention\",\"uuid\":\"64397b39-3af5-46a3-8ee4-9a2f64f5ff58\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-1lVITRA_q\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-3h95ZN6xP6\":{\"children\":[],\"id\":\"DIVIDER-3h95ZN6xP6\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"ROW-dW1LDjU5P\",\"DIVIDER-3h95ZN6xP6\",\"ROW-1lVITRA_q\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"4.2 Advertising campaign analysis\"},\"type\":\"HEADER\"},\"MARKDOWN-O8xpEApTPQ\":{\"children\":[],\"id\":\"MARKDOWN-O8xpEApTPQ\",\"meta\":{\"code\":\"#### 1) \\u041f\\u0440\\u0438 \\u043e\\u0431\\u0440\\u0430\\u0449\\u0435\\u043d\\u0438\\u0438 \\u043a \\u043e\\u0441\\u043d\\u043e\\u0432\\u043d\\u043e\\u043c\\u0443 \\u0434\\u0430\\u0448\\u0431\\u043e\\u0440\\u0434\\u0443 (News feed - main data) \\u043d\\u0430 \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u0435 **DAU** \\u0431\\u044b\\u043b \\u043e\\u0431\\u043d\\u0430\\u0440\\u0443\\u0436\\u0435\\u043d \\u0432\\u0441\\u043f\\u043b\\u0435\\u0441\\u043a \\u0430\\u043a\\u0442\\u0438\\u0432\\u043d\\u043e\\u0439 \\u0430\\u0443\\u0434\\u0438\\u0442\\u043e\\u0440\\u0438\\u0438 6 \\u0438\\u044e\\u043d\\u044f 2022 \\u0433\\u043e\\u0434\\u0430. \\u0411\\u043e\\u043b\\u0435\\u0435 \\u0442\\u043e\\u0433\\u043e, \\u043d\\u0430 \\u0433\\u0440\\u0430\\u0444\\u0438\\u043a\\u0435 **Source**, \\u043a\\u043e\\u0442\\u043e\\u0440\\u044b\\u0439 \\u043f\\u043e\\u043a\\u0430\\u0437\\u044b\\u0432\\u0430\\u0435\\u0442 \\u0430\\u043a\\u0442\\u0438\\u0432\\u043d\\u043e\\u0441\\u0442\\u044c \\u0430\\u0443\\u0434\\u0438\\u0442\\u043e\\u0440\\u0438\\u0438 \\u0432 \\u0437\\u0430\\u0432\\u0438\\u0441\\u0438\\u043c\\u043e\\u0441\\u0442\\u0438 \\u043e\\u0442 \\u0438\\u0441\\u0442\\u043e\\u0447\\u043d\\u0438\\u043a\\u0430 \\u043f\\u0440\\u0438\\u0432\\u043b\\u0435\\u0447\\u0435\\u043d\\u0438\\u044f \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439, \\u0432\\u0438\\u0434\\u043d\\u043e, \\u0447\\u0442\\u043e \\u0432\\u0441\\u043f\\u043b\\u0435\\u0441\\u043a \\u0430\\u043a\\u0442\\u0438\\u0432\\u043d\\u043e\\u0441\\u0442\\u0438 \\u0441\\u0432\\u044f\\u0437\\u0430\\u043d \\u0438\\u043c\\u0435\\u043d\\u043d\\u043e \\u0441 \\u043f\\u043b\\u0430\\u0442\\u043d\\u044b\\u043c\\u0438 \\u043a\\u0430\\u043d\\u0430\\u043b\\u0430\\u043c\\u0438, \\u0447\\u0442\\u043e \\u043f\\u043e\\u0434\\u0442\\u0432\\u0435\\u0440\\u0436\\u0434\\u0430\\u0435\\u0442 \\u043f\\u0440\\u043e\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u0435 \\u043c\\u0430\\u0440\\u043a\\u0435\\u0442\\u0438\\u043d\\u043a\\u043e\\u0432\\u043e\\u0439 \\u043a\\u0430\\u043c\\u043f\\u0430\\u043d\\u0438\\u0438 \\u0438\\u043c\\u0435\\u043d\\u043d\\u043e \\u0432 \\u044d\\u0442\\u0443 \\u0434\\u0430\\u0442\\u0443.\\n\\n#### 2) \\u0427\\u0442\\u043e\\u0431\\u044b \\u0438\\u0437\\u0443\\u0447\\u0438\\u0442\\u044c \\u043a\\u0430\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e \\u0442\\u0440\\u0430\\u0444\\u0438\\u043a\\u0430 \\u0438 \\u0442\\u043e, \\u043a\\u0430\\u043a \\u0440\\u0435\\u043a\\u043b\\u0430\\u043c\\u043d\\u044b\\u0435 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0438 \\u043f\\u0440\\u043e\\u0434\\u043e\\u043b\\u0436\\u0430\\u044e\\u0442 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u044c\\u0441\\u044f \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435\\u043c, \\u043f\\u043e\\u0441\\u0442\\u0440\\u043e\\u0438\\u043c Retention \\u0434\\u0430\\u043d\\u043d\\u043e\\u0439 \\u043a\\u043e\\u043d\\u043a\\u0440\\u0435\\u0442\\u043d\\u043e\\u0439 \\u0433\\u0440\\u0443\\u043f\\u043f\\u044b \\u0437\\u0430 \\u0434\\u0432\\u0435 \\u043d\\u0435\\u0434\\u0435\\u043b\\u0438 \\u043f\\u043e\\u0441\\u043b\\u0435 6 \\u0438\\u044e\\u043d\\u044f, \\u0430 \\u0442\\u0430\\u043a\\u0436\\u0435 Retention \\u043f\\u043e \\u043a\\u043e\\u0433\\u043e\\u0440\\u0442\\u0430\\u043c \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439 \\u0437\\u0430 20 \\u0434\\u043d\\u0435\\u0439 \\u0441 1 \\u043f\\u043e 20 \\u0438\\u044e\\u043d\\u044f.\\n\\n<br />\",\"height\":50,\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-dW1LDjU5P\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-sbDN9TY7np\":{\"children\":[],\"id\":\"MARKDOWN-sbDN9TY7np\",\"meta\":{\"code\":\"#### \\u041a\\u043e\\u0433\\u043e\\u0440\\u0442\\u043d\\u044b\\u0439 \\u0430\\u043d\\u0430\\u043b\\u0438\\u0437 Retention \\u043f\\u043e\\u043a\\u0430\\u0437\\u044b\\u0432\\u0430\\u0435\\u0442, \\u0447\\u0442\\u043e \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e \\u043d\\u043e\\u0432\\u044b\\u0445 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439 \\u043f\\u0440\\u0438\\u043c\\u0435\\u0440\\u043d\\u043e \\u0432 3 \\u0440\\u0430\\u0437\\u0430 \\u043f\\u0440\\u0435\\u0432\\u044b\\u0441\\u0438\\u043b\\u043e \\u0441\\u0440\\u0435\\u0434\\u043d\\u0435\\u0435 \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u0435 \\u043f\\u0440\\u0438\\u0432\\u043b\\u0435\\u0447\\u0435\\u043d\\u0438\\u044f \\u043a\\u043b\\u0438\\u0435\\u043d\\u0442\\u043e\\u0432 \\u0437\\u0430 20 \\u0434\\u043d\\u0435\\u0439. \\u041e\\u0434\\u043d\\u0430\\u043a\\u043e \\u043f\\u043e Retension \\u0433\\u0440\\u0443\\u043f\\u043f\\u044b \\u043a\\u043b\\u0438\\u0435\\u043d\\u0442\\u043e\\u0432, \\u043f\\u0440\\u0438\\u0432\\u043b\\u0435\\u0447\\u0435\\u043d\\u043d\\u044b\\u0445 \\u0432 \\u0434\\u0435\\u043d\\u044c \\u0440\\u0435\\u043a\\u043b\\u0430\\u043c\\u043d\\u043e\\u0439 \\u043a\\u0430\\u043c\\u043f\\u0430\\u043d\\u0438\\u0438, \\u0432\\u0438\\u0434\\u043d\\u043e, \\u0447\\u0442\\u043e \\u0435\\u0435 \\u043a\\u0430\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e \\u0431\\u044b\\u043b\\u043e \\u0434\\u043e\\u0432\\u043e\\u043b\\u044c\\u043d\\u043e \\u043d\\u0438\\u0437\\u043a\\u0438\\u043c. \\u041f\\u0440\\u0430\\u043a\\u0442\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438 \\u0432 \\u043f\\u043e\\u043b\\u043d\\u043e\\u043c \\u0441\\u043e\\u0441\\u0442\\u0430\\u0432\\u0435 \\u043d\\u043e\\u0432\\u044b\\u0435 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0438 \\u043f\\u0440\\u0435\\u043a\\u0440\\u0430\\u0442\\u0438\\u043b\\u0438 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u044c\\u0441\\u044f \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435\\u043c \\u0443\\u0436\\u0435 \\u043d\\u0430 \\u0441\\u043b\\u0435\\u0434\\u0443\\u044e\\u0449\\u0438\\u0439 \\u0434\\u0435\\u043d\\u044c, \\u0447\\u0442\\u043e \\u0433\\u043e\\u0432\\u043e\\u0440\\u0438\\u0442 \\u043e \\u0440\\u0435\\u043a\\u043b\\u0430\\u043c\\u043d\\u043e\\u0439 \\u043a\\u0430\\u043c\\u043f\\u0430\\u043d\\u0438\\u0438 \\u043b\\u0438\\u0431\\u043e \\u043a\\u0430\\u043a \\u043e \\u0440\\u0430\\u0437\\u043e\\u0432\\u043e\\u0439 \\u0430\\u043a\\u0446\\u0438\\u0438, \\u043b\\u0438\\u0431\\u043e \\u043a\\u0430\\u043a \\u043e \\u0441\\u043f\\u0435\\u043a\\u0443\\u043b\\u044f\\u0446\\u0438\\u0438 \\u043f\\u043e\\u043a\\u0430\\u0437\\u0430\\u0442\\u0435\\u043b\\u044f\\u043c\\u0438 \\u0442\\u0440\\u0430\\u0444\\u0438\\u043a\\u0430.\\n\\n<br />\",\"height\":50,\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-1lVITRA_q\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-1lVITRA_q\":{\"children\":[\"CHART-R2LtTBmsyY\",\"CHART-nyfDNl6go2\",\"MARKDOWN-sbDN9TY7np\"],\"id\":\"ROW-1lVITRA_q\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-dW1LDjU5P\":{\"children\":[\"CHART-hpGEhtM3A7\",\"CHART-eEnFDnIHTA\",\"MARKDOWN-O8xpEApTPQ\"],\"id\":\"ROW-dW1LDjU5P\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20220620.feed_actions",
+                            "datasource_type": "table",
+                            "id": 9503,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"SUPERSET_DEFAULT\", \"comparison_type\": \"values\", \"datasource\": \"3643__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"source\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 17855, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Source\", \"optionName\": \"metric_273r1eym45m_c9xe5pbddv6\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"send_time_range\": false, \"show_brush\": \"auto\", \"show_legend\": true, \"show_markers\": true, \"slice_id\": 9503, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Date\", \"x_axis_showminmax\": false, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Number of users\", \"remote_id\": 9503, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20220620\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":3643,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"source\"],\"metrics\":[{\"aggregate\":\"COUNT_DISTINCT\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":17855,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"Source\",\"optionName\":\"metric_273r1eym45m_c9xe5pbddv6\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Source",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20220620.feed_actions",
+                            "datasource_type": "table",
+                            "id": 9504,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"3643__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 17855, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Unique_Users\", \"optionName\": \"metric_273r1eym45m_c9xe5pbddv6\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 50000, \"show_brush\": \"auto\", \"slice_id\": 9504, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 9504, \"datasource_name\": \"feed_actions\", \"schema\": \"simulator_20220620\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":3643,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"COUNT_DISTINCT\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":17855,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"Unique_Users\",\"optionName\":\"metric_273r1eym45m_c9xe5pbddv6\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":50000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "DAU",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20220620.EV_Advertising campaign",
+                            "datasource_type": "table",
+                            "id": 9524,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [], \"datasource\": \"4418__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"groupby\": [\"date\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"ads_users\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 22133, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT64\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Ads_users\", \"optionName\": \"metric_gs6i7xhjn5_hec3rfc03ym\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": 1000, \"slice_id\": 9524, \"time_range\": \"2022-06-06T00:00:00 : 2022-06-20T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 9524, \"datasource_name\": \"EV_Advertising campaign\", \"schema\": \"simulator_20220620\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":4418,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"2022-06-06T00:00:00 : 2022-06-20T00:00:00\",\"granularity\":\"date\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"date\"],\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"column_name\":\"ads_users\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":22133,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT64\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"Ads_users\",\"optionName\":\"metric_gs6i7xhjn5_hec3rfc03ym\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Advertising campaign Retention",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20220620.EV_Adv camp cohort",
+                            "datasource_type": "table",
+                            "id": 9534,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"'ads'\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_o6g6xbf8jhc_svdn400kf4j\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"source\"}], \"all_columns_x\": \"string_date\", \"all_columns_y\": \"string_start_date\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"4438__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"dark_blue\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"users\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 22213, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT64\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(users)\", \"optionName\": \"metric_1wkb607eto5_4w2xfnpjhf\", \"sqlExpression\": null}, \"normalize_across\": \"y\", \"normalized\": false, \"row_limit\": 1000, \"show_legend\": true, \"show_perc\": true, \"show_values\": true, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"2022-06-01T00:00:00 : 2022-06-20T00:00:00\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 9534, \"datasource_name\": \"EV_Adv camp cohort\", \"schema\": \"simulator_20220620\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":4438,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"2022-06-01T00:00:00 : 2022-06-20T00:00:00\",\"granularity\":\"date\",\"filters\":[{\"col\":\"source\",\"op\":\"==\",\"val\":\"'ads'\"}],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":22213,\"column_name\":\"users\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"UINT64\",\"type_generic\":null,\"python_date_format\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(users)\",\"optionName\":\"metric_1wkb607eto5_4w2xfnpjhf\"}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Advertising campaign Retention cohort",
+                            "viz_type": "heatmap"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22209,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 4438,
+                            "type": "DATE",
+                            "uuid": "3735821b-61f2-4706-8c6f-45f68514d037",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "column_name": "string_date",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22210,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4438,
+                            "type": "STRING",
+                            "uuid": "b7896c90-009e-409b-9640-e8284cba68a9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "column_name": "start_date",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22211,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 4438,
+                            "type": "DATE",
+                            "uuid": "343198ae-9f4f-4c74-932c-8881fbcaf6d4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "column_name": "string_start_date",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22212,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4438,
+                            "type": "STRING",
+                            "uuid": "75b097c6-0f6d-4bab-93de-c524283b47db",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "column_name": "users",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22213,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4438,
+                            "type": "UINT64",
+                            "uuid": "21f69108-18a7-4e1d-a0f3-22bf5e1172a7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "column_name": "source",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22214,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4438,
+                            "type": "STRING",
+                            "uuid": "7fc84cb8-8c4a-4788-92b9-9480328dff19",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T22:06:30"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 4521,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 4438,
+                            "uuid": "9334bc7d-6fb5-4c93-a2e4-f0ddae75aa22",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 4438, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20220620",
+                "sql": "select date, toString(date) as string_date, start_date, toString(start_date) as string_start_date, count(user_id) as users, source\nfrom\n(Select user_id, min(toDate(time)) as start_date, source\nfrom simulator_20220620.feed_actions\ngroup by user_id, source\nhaving start_date >= toDate('2022-06-01') and start_date <= toDate('2022-06-20') \n) t1\njoin\n(select distinct user_id, toDate(time) as date\nfrom simulator_20220620.feed_actions) t2\nusing user_id\ngroup by date, start_date, source",
+                "table_name": "EV_Adv camp cohort",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "user_id",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17855,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "UINT32",
+                            "uuid": "5eeec06e-c266-4089-a2d3-ee770174298b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "post_id",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17856,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "UINT32",
+                            "uuid": "3150c4d4-8fc2-4df5-886a-07b283c170ba",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "action",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17857,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "STRING",
+                            "uuid": "35f1b70a-7d41-4eeb-99d7-4e20b6a634fa",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "time",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17858,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "DATETIME",
+                            "uuid": "6c92bf94-696b-49b1-b925-5d159ab8d890",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "gender",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17859,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "INT8",
+                            "uuid": "8ff9755e-c85a-43d2-a368-afc611002d21",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "age",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17860,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "INT16",
+                            "uuid": "f8f56512-ecf0-4438-95fd-b738fbd3c452",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17861,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "STRING",
+                            "uuid": "013269c6-d5a0-4617-a988-4aed5ba1144b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "city",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17862,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "STRING",
+                            "uuid": "995c7ecc-96b1-4f77-a4f9-583157fc0576",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "os",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17863,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "STRING",
+                            "uuid": "ceae46c7-1a1c-4958-9d2c-9edfd400ca2a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "source",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17864,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "STRING",
+                            "uuid": "eee4a8d2-67bf-4bf6-9ee4-5e87d24009b9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "column_name": "exp_group",
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17865,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3643,
+                            "type": "INT8",
+                            "uuid": "dc8b1bf5-194b-4403-9fd2-0cd8febac270",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 5,
+                            "changed_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "created_by_fk": 5,
+                            "created_on": {
+                                "__datetime__": "2022-06-20T12:36:47"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 3720,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 3643,
+                            "uuid": "944e7fee-97c0-4257-9b82-45e4b3facd22",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 3643, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20220620",
+                "sql": null,
+                "table_name": "feed_actions",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T21:02:35"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T21:02:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22132,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 4418,
+                            "type": "DATE",
+                            "uuid": "926a8cbd-2eb4-4670-ba18-9f532e47af35",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T21:02:35"
+                            },
+                            "column_name": "ads_users",
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T21:02:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 22133,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 4418,
+                            "type": "UINT64",
+                            "uuid": "c773354d-10f4-457f-a2bf-38179a14c4d1",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 243,
+                            "changed_on": {
+                                "__datetime__": "2022-07-05T21:02:35"
+                            },
+                            "created_by_fk": 243,
+                            "created_on": {
+                                "__datetime__": "2022-07-05T21:02:35"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 4501,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 4418,
+                            "uuid": "1cdb942f-3a44-468d-bb74-76d4500cd46c",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 4418, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20220620",
+                "sql": "select date, count(user_id) ads_users\nfrom\n(select user_id\nfrom simulator_20220620.feed_actions\nwhere source = 'ads'\ngroup by user_id\nhaving min(toDate(time)) = '2022-06-06') t1\n\njoin\n\n(select distinct user_id, toDate(time) date\nfrom simulator_20220620.feed_actions) t2\n\nusing user_id\ngroup by date",
+                "table_name": "EV_Advertising campaign",
+                "template_params": null
+            }
+        }
+    ]
+}
