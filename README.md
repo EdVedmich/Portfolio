@@ -61,4 +61,4 @@ This repository presents the main works that I do in the process of improving my
      - Creating your own telegram bot and writing a script to build a short report on the work of one of the application modules for the previous day and for the previous 7 days. Automation of sending using Airflow.
      - Generating an analytical summary with information about the values of key metrics in Python on the operation of the entire application and automating it using Airflow. 
  
- - Block 6 (**Anomaly search**): Writing an alert system for an application that checks key metrics for anomalies every 15 minutes. Automation of the system using Airflow.
+ - Block 6 (**Anomaly detection**): Writing an alert system for an application that checks key metrics for anomalies every 15 minutes. Automation of the system using Airflow.
