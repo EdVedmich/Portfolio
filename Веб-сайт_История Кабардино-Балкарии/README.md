@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-	<title>История Кабардино-Балкарии</title>
+    <title>История Кабардино-Балкарии</title>
 	<META NAME="description" content="История Кабардино-Балкарии, специфика региона, культура, народы, обычаи">
 	<META NAME="Keywords" content="Кабардино-Балкария, Кавказ, история">
     <style>
