@@ -4,15 +4,15 @@
     <title>История Кабардино-Балкарии</title>
 	<META NAME="description" content="История Кабардино-Балкарии, специфика региона, культура, народы, обычаи">
 	<META NAME="Keywords" content="Кабардино-Балкария, Кавказ, история">
-   	<style>
-       		p.head {text-align: center; font: bold 40pt "Monotype Corsiva"; color: #5e8dc1;}
-        	p {text-align: justify; font-family: "Times New Roman"; font-size: 11pt; text-indent: 20px; margin-bottom: 0.5em; margin-top: 0em;}     
-        	a {text-decoration : none; font-family: "Times New Roman"; color: #000000;}
-        	a:hover {text-decoration: underline; color: #FFFFF0;}
-        	hr {color: #50C878; background-color: #50C878; height: 3px; width: 90%;}
-        	.down {margin-bottom: 0.5em;}
-        	H1 {font-family: "Times New Roman"; font-size: 14pt; text-align: center;}
-    	</style>
+    <style>
+        p.head {text-align: center; font: bold 40pt "Monotype Corsiva"; color: #5e8dc1;}
+        p {text-align: justify; font-family: "Times New Roman"; font-size: 11pt; text-indent: 20px; margin-bottom: 0.5em; margin-top: 0em;}     
+        a {text-decoration : none; font-family: "Times New Roman"; color: #000000;}
+        a:hover {text-decoration: underline; color: #FFFFF0;}
+        hr {color: #50C878; background-color: #50C878; height: 3px; width: 90%;}
+        .down {margin-bottom: 0.5em;}
+        H1 {font-family: "Times New Roman"; font-size: 14pt; text-align: center;}
+    </style>
 </head>
 <body bgcolor="#F5F5DC" text="#000000">
     <p class=head> История Кабардино-Балкарии </p>
