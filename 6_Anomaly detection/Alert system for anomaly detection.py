@@ -89,7 +89,9 @@ def dag_ed_vedmich_alerts_system():
             is_alert, df = check_anomaly(df, metric)
 
             if is_alert == 1:
-                msg = '''Метрика {metric}:\n текущее значение {current_val:.2f}\nотклонение от предыдущего значения {last_val_diff:.2%}\nhttp://superset.lab.karpov.courses/r/1543'''.format(metric=metric, current_val=df[metric].iloc[-1], last_val_diff=abs(1 - (df[metric].iloc[-1]/df[metric].iloc[-2])))
+                msg = '''Метрика {metric}:\n текущее значение {current_val:.2f}\nотклонение от предыдущего значения {last_val_diff:.2%}\n \
+                                                               http://superset.lab.karpov.courses/r/1543'''.format(metric=metric, \
+                                                               current_val=df[metric].iloc[-1], last_val_diff=abs(1 - (df[metric].iloc[-1]/df[metric].iloc[-2])))
 
                 sns.set(rc={'figure.figsize': (16, 10)})
                 plt.tight_layout()
