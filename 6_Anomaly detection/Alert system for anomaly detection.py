@@ -119,70 +119,7 @@ def dag_ed_vedmich_alerts_system():
                 bot.sendMessage(chat_id=chat_id, text=msg)
                 bot.sendPhoto(chat_id=chat_id, photo=plot_object)
         return
-
-    # Формируем task для запуска системы алертов по мессенджеру
-    @task()
-    def run_messenger(chat=None):
-        # функция для запуска системы алертов
-        # достаем данные
-        # формируем датафрейм
-        chat_id = chat or -519115532
-        bot = telegram.Bot(token='5409625015:AAHtbugFc2aCY35DWmbFc0KHuU15pZEsYYQ')
-        
-        # Обозначим список метрик
-        metrics_list = ['users_messenger', 'sent_messages']
-        
-        query = '''SELECT
-                            toStartOfFifteenMinutes(time) as ts,
-                            toDate(time) as date,
-                            formatDateTime(ts, '%R') as hm,
-                            uniqExact(user_id) as users_messenger,
-                            count(user_id) as sent_messages
-                        FROM simulator_20220620.feed_actions
-                        WHERE time >= today() - 1 and time < toStartOfFifteenMinutes(now())
-                        GROUP BY ts, date, hm
-                        ORDER BY ts'''
-        # округляем время до текущей пятнадцатиминутки, но ее не берем, так как она может быть неполная
-        data = pandahouse.read_clickhouse(query=query, connection=connection)
-        # затем берем цикл чтобы применить межквартильный размах
-        for metric in metrics_list:
-            df = data[['ts', 'date', 'hm', metric]].copy()
-        # далее к датафрейму применяем алгоритм в функции check_anomaly()
-            is_alert, df = check_anomaly(df, metric)
-
-            if is_alert == 1:
-                msg = '''Метрика {metric}:\n текущее значение {current_val:.2f}\nотклонение от предыдущего значения {last_val_diff:.2%}\nhttp://superset.lab.karpov.courses/r/1543'''.format(metric=metric, current_val=df[metric].iloc[-1], last_val_diff=abs(1 - (df[metric].iloc[-1]/df[metric].iloc[-2])))
-
-                sns.set(rc={'figure.figsize': (16, 10)})
-                plt.tight_layout()
-
-                ax = sns.lineplot(x=df['ts'], y=df[metric], label='metric')
-                ax = sns.lineplot(x=df['ts'], y=df['up'], label='up')
-                ax = sns.lineplot(x=df['ts'], y=df['low'], label='low')
-
-                for ind, label in enumerate(ax.get_xticklabels()):
-                    if ind % 2 == 0:
-                        label.set_visible(True)
-                    else:
-                        label.set_visible (False)
-
-                ax.set(xlabel='time')
-                ax.set(ylabel=metric)
-
-                ax.set_title(metric)
-                ax.set(ylim=(0, None))
-
-                plot_object = io.BytesIO()
-                ax.figure.savefig(plot_object)
-                plot_object.seek(0)
-                plot_object.name = '{0}.png'.format(metric)
-                plt.close()
-
-                bot.sendMessage(chat_id=chat_id, text=msg)
-                bot.sendPhoto(chat_id=chat_id, photo=plot_object)
-        return
     
     run_feed()
-    run_messenger()
     
 dag_ed_vedmich_alerts_system = dag_ed_vedmich_alerts_system()
